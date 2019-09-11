@@ -23,7 +23,7 @@ public class UFOBossEnemyShip extends EnemyShip{
     // EnemyShipBuilding calls this method to build a
     // specific UFOBossEnemyShip
 
-    void makeShip() {
+    protected void makeShip() {
 
         // TODO Auto-generated method stub
 
