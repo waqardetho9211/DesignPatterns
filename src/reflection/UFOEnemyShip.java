@@ -1,6 +1,7 @@
 package reflection;
 
 import abstractFactory.EnemyShip;
+import abstractFactory.EnemyShipFactory;
 
 public class UFOEnemyShip extends EnemyShip {
 
@@ -41,7 +42,7 @@ public class UFOEnemyShip extends EnemyShip {
     // EnemyShipBuilding calls this method to build a
     // specific UFOEnemyShip
 
-    void makeShip() {
+    protected void makeShip() {
 
         System.out.println("Making enemy ship " + getName());
 
